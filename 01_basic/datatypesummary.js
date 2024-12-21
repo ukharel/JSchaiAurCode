@@ -19,5 +19,27 @@ let myObj = {
     age : 22,
 }
 const myFunction = function(){
-    console.log('Hello World')
+    console.log('Hello World');
 }
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive) Heap(Non-Primitive)
+
+let myChannel = "ujjwalkhareldotcom"
+let anotherchannel = myChannel
+anotherchannel = "kharelujjwaldotcom"
+console.log(myChannel)
+console.log(anotherchannel);
+
+let userOne = {
+    name:"Gaurav",
+    age : 23,
+
+}
+let userTwo = userOne
+
+userTwo.name="Ujjwal"
+console.log(userOne.name)
+console.log(userTwo.name)
+
+
