@@ -11,7 +11,7 @@ const Jsuser = {
     isLoggedIn : false,
     LastLogInDays : ['Monday','Friday'],
 
-
+    
 }
 
 console.log(Jsuser['age'])
