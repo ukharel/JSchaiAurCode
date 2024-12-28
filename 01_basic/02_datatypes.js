@@ -17,5 +17,4 @@ let isLoggedIn = false
 // undefined => when there is no value.
 
 //object
-console.log(typeof "Ujjwal")
-
+console.log(typeof name)
