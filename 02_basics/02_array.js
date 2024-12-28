@@ -15,7 +15,7 @@ const real_another_array = anotherArray.flat(Infinity)
 // console.log(real_another_array)
 
 // console.log(Array.isArray("Ujjwal"))
-// console.log(Array.from('Ujjwal'))
+ console.log(Array.from('Ujjwal'))
 // console.log(Array.from({name: 'Ujjwal'}))
 
 const bet1 = 100
