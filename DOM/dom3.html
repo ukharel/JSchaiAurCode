@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function Addlang (LangName){
+        const li = document.createElement('li');
+        li.innerHTML=`${LangName}`;
+        document.querySelector('.language').appendChild(li);
+
+    }
+    // Addlang('Python');
+    // Addlang('Java');
+    // Addlang('C++');
+
+    function Addoptlang (langName){
+
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode(langName));
+    document.querySelector('.language').appendChild(li);
+    }
+    Addoptlang('C#');
+    Addoptlang('C++');
+    Addoptlang('Java');
+    Addoptlang('Python');
+    Addoptlang('Go');
+
+    const secondLang = document.querySelector("li:nth-child(2)");
+    const newli = document.createElement('li');
+    newli.textContent = 'typescript';
+    secondLang.replaceWith(newli);
+    
+
+
+    </script>
+</html>

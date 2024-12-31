@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+    
+</body>
+<script>
+    const parent = document.querySelector('.parent');
+    // console.log(parent);
+    // console.log(parent.children[1]);
+    // console.log(parent.children[1].innerHTML);
+
+    for (var i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }
+    parent.children[1].style.color = 'red';
+    console.log(parent.firstElementChild);
+    console.log(parent.lastElementChild);
+ 
+    console.log('Node : ', parent.childNodes)
+
+
+    
+
+</script>
+</html>
